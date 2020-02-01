@@ -60,3 +60,13 @@
     width: 100%;
     user-select: none;
 }
+
+@media (max-width: 850px) {
+    .menu-views{
+        padding: 0px;
+    }
+
+    span{
+        display: none;
+    }
+}
