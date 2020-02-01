@@ -1,0 +1,33 @@
+button{
+    padding: 15px 40px 15px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 15px 15px 0px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: rgb(19, 163, 50);
+    color: rgb(19, 163, 50);
+    border-width: 3px;
+    transition: 0.1s;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(19, 163, 50);
+    color: white;
+}
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: #0002 -10px 0px 10px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-top-style: solid;
+}

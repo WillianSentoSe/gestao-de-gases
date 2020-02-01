@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #eee;
+}
+
+button:focus {
+    outline:0;
+}
+
+.content{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: auto 450px;
+    width: 100%;
+    padding: 20px;
+}
+
+.item-list{
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+.item-list li{
+    border-radius: 5px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    margin: 20px 25px 20px 25px;
+    padding: 20px 30px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.item-list .item-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item-list .item-info span{
+    width: 100%;
+}
+
+.item-list .item-info strong{
+    width: 100%;
+}
+
+.item-list .item-actions{
+    width: 100px;
+    display: inline-flex;
+}
+
+.item-list li:hover{
+    box-shadow: #0001 5px 5px 5px;
+}
+
+.item-list .item-actions button{
+    margin: 0;
+    padding: 7px 10px;
+    margin-left: 5px;
+    border-radius: 100%;
+    justify-self: end;
+    border-width: 2px;
+    border-color: #eee;
+    color: #aaa;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.item-list .item-actions button:hover{
+    border-color: #ccc;
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+.side-menu{
+    border-left: 1px dashed #ccc;
+    padding: 20px 25px;
+    margin: 0px;
+    width: 450px;
+    position: fixed;
+    right: 0px;
+}
+
+.side-menu p{
+    color: #999;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.rodape button{
+    padding: 15px 40px 15px 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 15px 15px 0px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: rgb(19, 163, 50);
+    color: rgb(19, 163, 50);
+    border-width: 2px;
+    transition: 0.1s;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.rodape button:hover{
+    background-color: rgb(19, 163, 50);
+    color: white;
+}
+
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: #0001 -10px 0px 10px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-top-style: solid;
+}
