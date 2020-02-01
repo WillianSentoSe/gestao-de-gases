@@ -63,10 +63,17 @@
 
 @media (max-width: 850px) {
     .menu-views{
+        position: fixed;
+        z-index: 1000000;
+        left: 0px;
+        top: 0px;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 100%;
+        border: none;
+        height: 100%;
         padding: 0px;
+        background: #333;
     }
 
-    span{
-        display: none;
-    }
 }
