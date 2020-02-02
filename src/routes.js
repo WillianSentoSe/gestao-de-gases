@@ -6,6 +6,7 @@ import NotasFiscais from './pages/NotasFiscais';
 import Empenhos from './pages/Empenhos';
 import Gases from './pages/Gases';
 import Fornecedores from './pages/Fornecedores';
+import FormFornecedor from './pages/Form/Fornecedor';
 
 const Routes = () => (
     <Switch>
@@ -13,6 +14,7 @@ const Routes = () => (
         <Route path='/empenhos' component={Empenhos} />
         <Route path='/gases' component={Gases} />
         <Route path='/fornecedores' component={Fornecedores} />
+        <Route path='/form' component={FormFornecedor} />
     </Switch>
 );
 

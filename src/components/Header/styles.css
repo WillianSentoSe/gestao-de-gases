@@ -13,9 +13,8 @@
 .menu-views{
     width: 100%;
     display: flex;
-    padding: 0px auto 0px auto;
     justify-content: space-between;
-    padding: 0px 15% 0px 15%;
+    padding: 0px 10% 0px 10%;
     background-color: #333;
     border-bottom: 10px solid #eee;
 }
@@ -70,10 +69,18 @@
         width: 50%;
         display: grid;
         grid-template-columns: 100%;
+        grid-template-rows: 5rem 5rem 5rem 5rem;
+        grid-auto-flow: row;
         border: none;
         height: 100%;
         padding: 0px;
         background: #333;
+        transform: translate(-0%, 0);
+    }
+    
+    .menu-views .menu-button{
+        border-bottom: 1px solid #222a;
+        height: 5rem;
     }
 
 }
