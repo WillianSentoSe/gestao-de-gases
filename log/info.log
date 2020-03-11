@@ -1,0 +1,43 @@
+[32minfo[39m: Tryng to connect to MongoDB [mongodb://admin:m0ng04dm1n1997@localhost:27017/gestao-de-gases].
+[32minfo[39m: Tryng to connect to MongoDB [localhost:27017].
+[32minfo[39m: Tryng to connect to MongoDB [localhost:27017]
+[32minfo[39m: Tryng to connect to MongoDB [mongodb://admin:myadminpassword@localhost:27017/gestao-de-gases]
+[32minfo[39m: Tryng to connect to MongoDB [mongodb://admin:m0ng04dm1n1997@localhost:27017/gestao-de-gases]
+[32minfo[39m: Tryng to connect to MongoDB [localhost:27017]
+[32minfo[39m: Tryng to connect to MongoDB [192.168.100.6:27017]
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: Tryng to connect to MongoDB [mongodb://admin:m0ng04dm1n1997@127.0.0.1:27017/gestao-de-gases]
+[32minfo[39m: Tryng to connect to MongoDB [mongodb://admin:m0ng04dm1n1997@127.0.0.1:27017/gestao-de-gases]
+[32minfo[39m: [mongodb://admin:m0ng04dm1n1997@127.0.0.1:27017/gestao-de-gases] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Nome = undefined
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Nome = Stark Industries
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Nome = Stark Industries
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Nome = Stark Industries
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[31merror[39m: Parameter is not a instance of FORNECEDOR
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
+[32minfo[39m: No data found to Query "[object Object]"
+[32minfo[39m: Tryng to connect to MongoDB [127.0.0.1:27017]
+[32minfo[39m: [127.0.0.1:27017] MongoDB is connected.
