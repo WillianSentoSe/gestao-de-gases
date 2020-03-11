@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SearchBox from '../../components/SearchBox';
 import { FaPen, FaTrash } from 'react-icons/fa';
+import api from '../../services/api';
 
 export default class Fornecedores extends Component{
     state = {
@@ -8,10 +9,12 @@ export default class Fornecedores extends Component{
     };
 
     componentDidMount(){
-        //const response = await Api.getFornecedores();
-        const response = [{name: 'Stark Industries', phoneNumber: '(21) 8002-8922', email: 'tstark@avengers.com', companyName: 'Stark Inc.'}, {name: 'Stark Industries', phoneNumber: '(21) 8002-8922', email: 'tstark@avengers.com', companyName: 'Stark Inc.'}];
-        
-        this.setState({itemList: response});
+        this.loadFornecedores()
+    }
+
+    loadFornecedores = async () => {
+        const response = await api.get('/fornecedores')
+        this.setState({itemList: response.data});
     }
 
     render(){
@@ -24,9 +27,9 @@ export default class Fornecedores extends Component{
                         { itemList.map( item => (
                             <li>
                                 <div className='item-info'>
-                                    <strong>{ item.name }</strong>
-                                    <span>{ item.companyName }</span>
-                                    <span>{ item.phoneNumber }</span>
+                                    <strong>{ item.nome_fantasia }</strong>
+                                    <span>{ item.razao_social }</span>
+                                    <span>{ item.telefone }</span>
                                     <span>{ item.email }</span>
                                 </div>
                                 <div className='item-actions'>
