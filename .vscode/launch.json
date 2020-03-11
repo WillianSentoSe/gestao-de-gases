@@ -7,11 +7,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Services",
+            "name": "Start Api",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\src\\services\\index.js",
+            "program": "${workspaceFolder}\\src\\api\\index.js",
+            "envFile": "${workspaceFolder}\\enviroments\\local.env",
             "outputCapture": "std"
         }
     ]
